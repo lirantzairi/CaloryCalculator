@@ -14,13 +14,15 @@ class Meal: NSObject
     var date: Date
     var text: String
     var calories: Int
+    var userId: String
     
-    init(date: Date, text: String, calories: Int)
+    init(date: Date, text: String, calories: Int, userId: String, id: String)
     {
-        self.id = UUID().uuidString
+        self.id = id
         self.date = date
         self.text = text
         self.calories = calories
+        self.userId = userId
         
         super.init()
     }
