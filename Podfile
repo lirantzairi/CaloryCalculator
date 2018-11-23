@@ -8,13 +8,10 @@ target 'CaloryCalculator' do
   # Pods for CaloryCalculator
   pod 'Firebase/Core'
   pod 'Firebase/Database'
+  pod 'Firebase/Auth'
+  pod 'GoogleSignIn'
 
   target 'CaloryCalculatorTests' do
-    inherit! :search_paths
-    # Pods for testing
-  end
-
-  target 'CaloryCalculatorUITests' do
     inherit! :search_paths
     # Pods for testing
   end
