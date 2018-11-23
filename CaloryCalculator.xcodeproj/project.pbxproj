@@ -8,27 +8,34 @@
 
 /* Begin PBXBuildFile section */
 		232599A1B14571D15723C582 /* Pods_CaloryCalculator.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5740FC1AC554D3917CB319F4 /* Pods_CaloryCalculator.framework */; };
-		89B81600931A79CFF0BE7200 /* Pods_CaloryCalculatorUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 962C9AD772CD64BBD0CA746C /* Pods_CaloryCalculatorUITests.framework */; };
-		9ECA0E3D2197799700512BBD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9ECA0E3C2197799700512BBD /* AppDelegate.swift */; };
-		9ECA0E3F2197799700512BBD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9ECA0E3E2197799700512BBD /* ViewController.swift */; };
-		9ECA0E422197799700512BBD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9ECA0E402197799700512BBD /* Main.storyboard */; };
-		9ECA0E442197799800512BBD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9ECA0E432197799800512BBD /* Assets.xcassets */; };
-		9ECA0E472197799800512BBD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9ECA0E452197799800512BBD /* LaunchScreen.storyboard */; };
+		9E2D4C7921A7DB3F00950130 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9E2D4C4F21A7DB3F00950130 /* Assets.xcassets */; };
+		9E2D4C7A21A7DB3F00950130 /* Meal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E2D4C5221A7DB3F00950130 /* Meal.swift */; };
+		9E2D4C7B21A7DB3F00950130 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E2D4C5321A7DB3F00950130 /* User.swift */; };
+		9E2D4C7C21A7DB3F00950130 /* RoleUpgradeRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E2D4C5421A7DB3F00950130 /* RoleUpgradeRequest.swift */; };
+		9E2D4C7D21A7DB3F00950130 /* FirebaseObjectConverter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E2D4C5621A7DB3F00950130 /* FirebaseObjectConverter.swift */; };
+		9E2D4C7E21A7DB3F00950130 /* FirebaseServerConnector.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E2D4C5721A7DB3F00950130 /* FirebaseServerConnector.swift */; };
+		9E2D4C7F21A7DB3F00950130 /* ServerConnector.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E2D4C5821A7DB3F00950130 /* ServerConnector.swift */; };
+		9E2D4C8021A7DB3F00950130 /* Date.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E2D4C5A21A7DB3F00950130 /* Date.swift */; };
+		9E2D4C8121A7DB3F00950130 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E2D4C5B21A7DB3F00950130 /* ViewController.swift */; };
+		9E2D4C8221A7DB3F00950130 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E2D4C5D21A7DB3F00950130 /* Constants.swift */; };
+		9E2D4C8321A7DB3F00950130 /* Weak.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E2D4C5E21A7DB3F00950130 /* Weak.swift */; };
+		9E2D4C8421A7DB3F00950130 /* UpgradeRequestsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E2D4C6121A7DB3F00950130 /* UpgradeRequestsTableViewCell.swift */; };
+		9E2D4C8521A7DB3F00950130 /* UserSettingsRoleTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E2D4C6221A7DB3F00950130 /* UserSettingsRoleTableViewCell.swift */; };
+		9E2D4C8621A7DB3F00950130 /* UsersTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E2D4C6321A7DB3F00950130 /* UsersTableViewCell.swift */; };
+		9E2D4C8721A7DB3F00950130 /* Preloader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E2D4C6521A7DB3F00950130 /* Preloader.swift */; };
+		9E2D4C8821A7DB3F00950130 /* UserProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E2D4C6821A7DB3F00950130 /* UserProfileViewController.swift */; };
+		9E2D4C8921A7DB3F00950130 /* AuthenticationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E2D4C6921A7DB3F00950130 /* AuthenticationViewController.swift */; };
+		9E2D4C8A21A7DB3F00950130 /* UserDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E2D4C6B21A7DB3F00950130 /* UserDetailsViewController.swift */; };
+		9E2D4C8B21A7DB3F00950130 /* UsersManagerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E2D4C6D21A7DB3F00950130 /* UsersManagerViewController.swift */; };
+		9E2D4C8C21A7DB3F00950130 /* UpgradeRequestsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E2D4C6E21A7DB3F00950130 /* UpgradeRequestsViewController.swift */; };
+		9E2D4C8D21A7DB3F00950130 /* UsersListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E2D4C6F21A7DB3F00950130 /* UsersListViewController.swift */; };
+		9E2D4C8E21A7DB3F00950130 /* MealsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E2D4C7121A7DB3F00950130 /* MealsViewController.swift */; };
+		9E2D4C8F21A7DB3F00950130 /* MealDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E2D4C7221A7DB3F00950130 /* MealDetailsViewController.swift */; };
+		9E2D4C9121A7DB3F00950130 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9E2D4C7621A7DB3F00950130 /* Main.storyboard */; };
+		9E2D4C9221A7DB3F00950130 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E2D4C7821A7DB3F00950130 /* AppDelegate.swift */; };
+		9E2D4C9621A7DB9500950130 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9E2D4C9421A7DB9500950130 /* GoogleService-Info.plist */; };
 		9ECA0E522197799800512BBD /* CaloryCalculatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9ECA0E512197799800512BBD /* CaloryCalculatorTests.swift */; };
 		9ECA0E5D2197799800512BBD /* CaloryCalculatorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9ECA0E5C2197799800512BBD /* CaloryCalculatorUITests.swift */; };
-		9ECA0E6B2198164200512BBD /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9ECA0E6A2198164200512BBD /* GoogleService-Info.plist */; };
-		9ED7CF142198912C00E26F6C /* FirebaseServerConnector.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9ED7CF132198912C00E26F6C /* FirebaseServerConnector.swift */; };
-		9ED7CF152198912C00E26F6C /* FirebaseServerConnector.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9ED7CF132198912C00E26F6C /* FirebaseServerConnector.swift */; };
-		9ED7CF172198914600E26F6C /* ServerConnector.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9ED7CF162198914600E26F6C /* ServerConnector.swift */; };
-		9ED7CF182198914600E26F6C /* ServerConnector.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9ED7CF162198914600E26F6C /* ServerConnector.swift */; };
-		9ED7CF1A219893AE00E26F6C /* Meal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9ED7CF19219893AE00E26F6C /* Meal.swift */; };
-		9ED7CF1B219893AE00E26F6C /* Meal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9ED7CF19219893AE00E26F6C /* Meal.swift */; };
-		9ED7CF1D219893C300E26F6C /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9ED7CF1C219893C300E26F6C /* User.swift */; };
-		9ED7CF1E219893C300E26F6C /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9ED7CF1C219893C300E26F6C /* User.swift */; };
-		9ED7CF20219893F600E26F6C /* UserSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9ED7CF1F219893F600E26F6C /* UserSettings.swift */; };
-		9ED7CF21219893F600E26F6C /* UserSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9ED7CF1F219893F600E26F6C /* UserSettings.swift */; };
-		9ED7CF232198963200E26F6C /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9ED7CF222198963200E26F6C /* Constants.swift */; };
-		9ED7CF242198963200E26F6C /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9ED7CF222198963200E26F6C /* Constants.swift */; };
 		CD8E7AE5C1853C706D004CC4 /* Pods_CaloryCalculatorTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 93A0719C9C544E80D3176704 /* Pods_CaloryCalculatorTests.framework */; };
 /* End PBXBuildFile section */
 
@@ -56,28 +63,42 @@
 		5740FC1AC554D3917CB319F4 /* Pods_CaloryCalculator.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CaloryCalculator.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		93A0719C9C544E80D3176704 /* Pods_CaloryCalculatorTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CaloryCalculatorTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		962C9AD772CD64BBD0CA746C /* Pods_CaloryCalculatorUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CaloryCalculatorUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		9851E0982FE5911BB6DEB0F5 /* Pods-CaloryCalculatorUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CaloryCalculatorUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-CaloryCalculatorUITests/Pods-CaloryCalculatorUITests.release.xcconfig"; sourceTree = "<group>"; };
+		9E2D4C4F21A7DB3F00950130 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9E2D4C5221A7DB3F00950130 /* Meal.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Meal.swift; sourceTree = "<group>"; };
+		9E2D4C5321A7DB3F00950130 /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		9E2D4C5421A7DB3F00950130 /* RoleUpgradeRequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RoleUpgradeRequest.swift; sourceTree = "<group>"; };
+		9E2D4C5621A7DB3F00950130 /* FirebaseObjectConverter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FirebaseObjectConverter.swift; sourceTree = "<group>"; };
+		9E2D4C5721A7DB3F00950130 /* FirebaseServerConnector.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FirebaseServerConnector.swift; sourceTree = "<group>"; };
+		9E2D4C5821A7DB3F00950130 /* ServerConnector.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ServerConnector.swift; sourceTree = "<group>"; };
+		9E2D4C5A21A7DB3F00950130 /* Date.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Date.swift; sourceTree = "<group>"; };
+		9E2D4C5B21A7DB3F00950130 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		9E2D4C5D21A7DB3F00950130 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		9E2D4C5E21A7DB3F00950130 /* Weak.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Weak.swift; sourceTree = "<group>"; };
+		9E2D4C6121A7DB3F00950130 /* UpgradeRequestsTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UpgradeRequestsTableViewCell.swift; sourceTree = "<group>"; };
+		9E2D4C6221A7DB3F00950130 /* UserSettingsRoleTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserSettingsRoleTableViewCell.swift; sourceTree = "<group>"; };
+		9E2D4C6321A7DB3F00950130 /* UsersTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UsersTableViewCell.swift; sourceTree = "<group>"; };
+		9E2D4C6521A7DB3F00950130 /* Preloader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Preloader.swift; sourceTree = "<group>"; };
+		9E2D4C6821A7DB3F00950130 /* UserProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserProfileViewController.swift; sourceTree = "<group>"; };
+		9E2D4C6921A7DB3F00950130 /* AuthenticationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AuthenticationViewController.swift; sourceTree = "<group>"; };
+		9E2D4C6B21A7DB3F00950130 /* UserDetailsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserDetailsViewController.swift; sourceTree = "<group>"; };
+		9E2D4C6D21A7DB3F00950130 /* UsersManagerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UsersManagerViewController.swift; sourceTree = "<group>"; };
+		9E2D4C6E21A7DB3F00950130 /* UpgradeRequestsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UpgradeRequestsViewController.swift; sourceTree = "<group>"; };
+		9E2D4C6F21A7DB3F00950130 /* UsersListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UsersListViewController.swift; sourceTree = "<group>"; };
+		9E2D4C7121A7DB3F00950130 /* MealsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MealsViewController.swift; sourceTree = "<group>"; };
+		9E2D4C7221A7DB3F00950130 /* MealDetailsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MealDetailsViewController.swift; sourceTree = "<group>"; };
+		9E2D4C7521A7DB3F00950130 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9E2D4C7721A7DB3F00950130 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9E2D4C7821A7DB3F00950130 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		9E2D4C9321A7DB9500950130 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9E2D4C9421A7DB9500950130 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		9ECA0E392197799700512BBD /* CaloryCalculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CaloryCalculator.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		9ECA0E3C2197799700512BBD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		9ECA0E3E2197799700512BBD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		9ECA0E412197799700512BBD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		9ECA0E432197799800512BBD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9ECA0E462197799800512BBD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		9ECA0E482197799800512BBD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9ECA0E4D2197799800512BBD /* CaloryCalculatorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CaloryCalculatorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9ECA0E512197799800512BBD /* CaloryCalculatorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CaloryCalculatorTests.swift; sourceTree = "<group>"; };
 		9ECA0E532197799800512BBD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9ECA0E582197799800512BBD /* CaloryCalculatorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CaloryCalculatorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9ECA0E5C2197799800512BBD /* CaloryCalculatorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CaloryCalculatorUITests.swift; sourceTree = "<group>"; };
 		9ECA0E5E2197799800512BBD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		9ECA0E6A2198164200512BBD /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
-		9ED7CF132198912C00E26F6C /* FirebaseServerConnector.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirebaseServerConnector.swift; sourceTree = "<group>"; };
-		9ED7CF162198914600E26F6C /* ServerConnector.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServerConnector.swift; sourceTree = "<group>"; };
-		9ED7CF19219893AE00E26F6C /* Meal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Meal.swift; sourceTree = "<group>"; };
-		9ED7CF1C219893C300E26F6C /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
-		9ED7CF1F219893F600E26F6C /* UserSettings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserSettings.swift; sourceTree = "<group>"; };
-		9ED7CF222198963200E26F6C /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
-		B9BE17061155F43741F73419 /* Pods-CaloryCalculatorUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CaloryCalculatorUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CaloryCalculatorUITests/Pods-CaloryCalculatorUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		E2FFAE522592A45B78FC2F3D /* Pods-CaloryCalculatorTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CaloryCalculatorTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CaloryCalculatorTests/Pods-CaloryCalculatorTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -102,7 +123,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				89B81600931A79CFF0BE7200 /* Pods_CaloryCalculatorUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -116,10 +136,149 @@
 				354D270776E676C142375429 /* Pods-CaloryCalculator.release.xcconfig */,
 				E2FFAE522592A45B78FC2F3D /* Pods-CaloryCalculatorTests.debug.xcconfig */,
 				173889211781C7E4D97C51BA /* Pods-CaloryCalculatorTests.release.xcconfig */,
-				B9BE17061155F43741F73419 /* Pods-CaloryCalculatorUITests.debug.xcconfig */,
-				9851E0982FE5911BB6DEB0F5 /* Pods-CaloryCalculatorUITests.release.xcconfig */,
 			);
 			name = Pods;
+			sourceTree = "<group>";
+		};
+		9E2D4C4E21A7DB3F00950130 /* Accessories */ = {
+			isa = PBXGroup;
+			children = (
+				9E2D4C4F21A7DB3F00950130 /* Assets.xcassets */,
+			);
+			path = Accessories;
+			sourceTree = "<group>";
+		};
+		9E2D4C5021A7DB3F00950130 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				9E2D4C5121A7DB3F00950130 /* Core */,
+				9E2D4C5521A7DB3F00950130 /* Server */,
+				9E2D4C5921A7DB3F00950130 /* Extensions */,
+				9E2D4C5C21A7DB3F00950130 /* Helpers */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		9E2D4C5121A7DB3F00950130 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				9E2D4C5221A7DB3F00950130 /* Meal.swift */,
+				9E2D4C5321A7DB3F00950130 /* User.swift */,
+				9E2D4C5421A7DB3F00950130 /* RoleUpgradeRequest.swift */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		9E2D4C5521A7DB3F00950130 /* Server */ = {
+			isa = PBXGroup;
+			children = (
+				9E2D4C5621A7DB3F00950130 /* FirebaseObjectConverter.swift */,
+				9E2D4C5721A7DB3F00950130 /* FirebaseServerConnector.swift */,
+				9E2D4C5821A7DB3F00950130 /* ServerConnector.swift */,
+			);
+			path = Server;
+			sourceTree = "<group>";
+		};
+		9E2D4C5921A7DB3F00950130 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				9E2D4C5A21A7DB3F00950130 /* Date.swift */,
+				9E2D4C5B21A7DB3F00950130 /* ViewController.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		9E2D4C5C21A7DB3F00950130 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				9E2D4C5D21A7DB3F00950130 /* Constants.swift */,
+				9E2D4C5E21A7DB3F00950130 /* Weak.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		9E2D4C5F21A7DB3F00950130 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				9E2D4C6021A7DB3F00950130 /* Cells */,
+				9E2D4C6421A7DB3F00950130 /* Helpers */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		9E2D4C6021A7DB3F00950130 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				9E2D4C6121A7DB3F00950130 /* UpgradeRequestsTableViewCell.swift */,
+				9E2D4C6221A7DB3F00950130 /* UserSettingsRoleTableViewCell.swift */,
+				9E2D4C6321A7DB3F00950130 /* UsersTableViewCell.swift */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		9E2D4C6421A7DB3F00950130 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				9E2D4C6521A7DB3F00950130 /* Preloader.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		9E2D4C6621A7DB3F00950130 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				9E2D4C6721A7DB3F00950130 /* AppUser */,
+				9E2D4C6A21A7DB3F00950130 /* Common */,
+				9E2D4C6C21A7DB3F00950130 /* Users */,
+				9E2D4C7021A7DB3F00950130 /* Meal */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		9E2D4C6721A7DB3F00950130 /* AppUser */ = {
+			isa = PBXGroup;
+			children = (
+				9E2D4C6821A7DB3F00950130 /* UserProfileViewController.swift */,
+				9E2D4C6921A7DB3F00950130 /* AuthenticationViewController.swift */,
+			);
+			path = AppUser;
+			sourceTree = "<group>";
+		};
+		9E2D4C6A21A7DB3F00950130 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				9E2D4C6B21A7DB3F00950130 /* UserDetailsViewController.swift */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		9E2D4C6C21A7DB3F00950130 /* Users */ = {
+			isa = PBXGroup;
+			children = (
+				9E2D4C6D21A7DB3F00950130 /* UsersManagerViewController.swift */,
+				9E2D4C6E21A7DB3F00950130 /* UpgradeRequestsViewController.swift */,
+				9E2D4C6F21A7DB3F00950130 /* UsersListViewController.swift */,
+			);
+			path = Users;
+			sourceTree = "<group>";
+		};
+		9E2D4C7021A7DB3F00950130 /* Meal */ = {
+			isa = PBXGroup;
+			children = (
+				9E2D4C7121A7DB3F00950130 /* MealsViewController.swift */,
+				9E2D4C7221A7DB3F00950130 /* MealDetailsViewController.swift */,
+			);
+			path = Meal;
+			sourceTree = "<group>";
+		};
+		9E2D4C7321A7DB3F00950130 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				9E2D4C7421A7DB3F00950130 /* LaunchScreen.storyboard */,
+				9E2D4C7621A7DB3F00950130 /* Main.storyboard */,
+				9E2D4C7821A7DB3F00950130 /* AppDelegate.swift */,
+			);
+			path = Main;
 			sourceTree = "<group>";
 		};
 		9ECA0E302197799700512BBD = {
@@ -147,14 +306,14 @@
 		9ECA0E3B2197799700512BBD /* CaloryCalculator */ = {
 			isa = PBXGroup;
 			children = (
-				9ED7CF1121988FB200E26F6C /* Model */,
-				9ECA0E3C2197799700512BBD /* AppDelegate.swift */,
-				9ECA0E3E2197799700512BBD /* ViewController.swift */,
-				9ECA0E402197799700512BBD /* Main.storyboard */,
-				9ECA0E432197799800512BBD /* Assets.xcassets */,
+				9E2D4C4E21A7DB3F00950130 /* Accessories */,
+				9E2D4C7321A7DB3F00950130 /* Main */,
+				9E2D4C5021A7DB3F00950130 /* Model */,
+				9E2D4C6621A7DB3F00950130 /* ViewControllers */,
+				9E2D4C5F21A7DB3F00950130 /* Views */,
 				9ECA0E452197799800512BBD /* LaunchScreen.storyboard */,
-				9ECA0E482197799800512BBD /* Info.plist */,
-				9ECA0E6A2198164200512BBD /* GoogleService-Info.plist */,
+				9E2D4C9421A7DB9500950130 /* GoogleService-Info.plist */,
+				9E2D4C9321A7DB9500950130 /* Info.plist */,
 			);
 			path = CaloryCalculator;
 			sourceTree = "<group>";
@@ -175,19 +334,6 @@
 				9ECA0E5E2197799800512BBD /* Info.plist */,
 			);
 			path = CaloryCalculatorUITests;
-			sourceTree = "<group>";
-		};
-		9ED7CF1121988FB200E26F6C /* Model */ = {
-			isa = PBXGroup;
-			children = (
-				9ED7CF132198912C00E26F6C /* FirebaseServerConnector.swift */,
-				9ED7CF162198914600E26F6C /* ServerConnector.swift */,
-				9ED7CF19219893AE00E26F6C /* Meal.swift */,
-				9ED7CF1C219893C300E26F6C /* User.swift */,
-				9ED7CF1F219893F600E26F6C /* UserSettings.swift */,
-				9ED7CF222198963200E26F6C /* Constants.swift */,
-			);
-			path = Model;
 			sourceTree = "<group>";
 		};
 		C55B245A08BDF9FD1F32E955 /* Frameworks */ = {
@@ -212,6 +358,7 @@
 				9ECA0E362197799700512BBD /* Frameworks */,
 				9ECA0E372197799700512BBD /* Resources */,
 				C177BB28292EE1ACBDC2B6EB /* [CP] Embed Pods Frameworks */,
+				B2485CF105C9939FFD584F28 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -245,7 +392,6 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9ECA0E672197799800512BBD /* Build configuration list for PBXNativeTarget "CaloryCalculatorUITests" */;
 			buildPhases = (
-				461AE5E5F5E021DB433FC528 /* [CP] Check Pods Manifest.lock */,
 				9ECA0E542197799800512BBD /* Sources */,
 				9ECA0E552197799800512BBD /* Frameworks */,
 				9ECA0E562197799800512BBD /* Resources */,
@@ -308,10 +454,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9ECA0E472197799800512BBD /* LaunchScreen.storyboard in Resources */,
-				9ECA0E6B2198164200512BBD /* GoogleService-Info.plist in Resources */,
-				9ECA0E442197799800512BBD /* Assets.xcassets in Resources */,
-				9ECA0E422197799700512BBD /* Main.storyboard in Resources */,
+				9E2D4C9121A7DB3F00950130 /* Main.storyboard in Resources */,
+				9E2D4C7921A7DB3F00950130 /* Assets.xcassets in Resources */,
+				9E2D4C9621A7DB9500950130 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -354,7 +499,7 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		461AE5E5F5E021DB433FC528 /* [CP] Check Pods Manifest.lock */ = {
+		B2485CF105C9939FFD584F28 /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -362,18 +507,18 @@
 			inputFileListPaths = (
 			);
 			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
+				"${SRCROOT}/Pods/Target Support Files/Pods-CaloryCalculator/Pods-CaloryCalculator-resources.sh",
+				"${PODS_ROOT}/GoogleSignIn/Resources/GoogleSignIn.bundle",
 			);
-			name = "[CP] Check Pods Manifest.lock";
+			name = "[CP] Copy Pods Resources";
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-CaloryCalculatorUITests-checkManifestLockResult.txt",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GoogleSignIn.bundle",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CaloryCalculator/Pods-CaloryCalculator-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		B9AB18CB8285071A6E973B42 /* [CP] Check Pods Manifest.lock */ = {
@@ -407,6 +552,9 @@
 			);
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-CaloryCalculator/Pods-CaloryCalculator-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GTMOAuth2/GTMOAuth2.framework",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
 				"${BUILT_PRODUCTS_DIR}/GoogleUtilities/GoogleUtilities.framework",
 				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
 				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
@@ -415,6 +563,9 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMOAuth2.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleUtilities.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
@@ -431,14 +582,29 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9ED7CF1A219893AE00E26F6C /* Meal.swift in Sources */,
-				9ECA0E3F2197799700512BBD /* ViewController.swift in Sources */,
-				9ED7CF1D219893C300E26F6C /* User.swift in Sources */,
-				9ED7CF142198912C00E26F6C /* FirebaseServerConnector.swift in Sources */,
-				9ED7CF20219893F600E26F6C /* UserSettings.swift in Sources */,
-				9ED7CF172198914600E26F6C /* ServerConnector.swift in Sources */,
-				9ECA0E3D2197799700512BBD /* AppDelegate.swift in Sources */,
-				9ED7CF232198963200E26F6C /* Constants.swift in Sources */,
+				9E2D4C7E21A7DB3F00950130 /* FirebaseServerConnector.swift in Sources */,
+				9E2D4C8821A7DB3F00950130 /* UserProfileViewController.swift in Sources */,
+				9E2D4C7D21A7DB3F00950130 /* FirebaseObjectConverter.swift in Sources */,
+				9E2D4C8021A7DB3F00950130 /* Date.swift in Sources */,
+				9E2D4C8F21A7DB3F00950130 /* MealDetailsViewController.swift in Sources */,
+				9E2D4C8E21A7DB3F00950130 /* MealsViewController.swift in Sources */,
+				9E2D4C8C21A7DB3F00950130 /* UpgradeRequestsViewController.swift in Sources */,
+				9E2D4C8621A7DB3F00950130 /* UsersTableViewCell.swift in Sources */,
+				9E2D4C7B21A7DB3F00950130 /* User.swift in Sources */,
+				9E2D4C7A21A7DB3F00950130 /* Meal.swift in Sources */,
+				9E2D4C7F21A7DB3F00950130 /* ServerConnector.swift in Sources */,
+				9E2D4C8121A7DB3F00950130 /* ViewController.swift in Sources */,
+				9E2D4C8521A7DB3F00950130 /* UserSettingsRoleTableViewCell.swift in Sources */,
+				9E2D4C8A21A7DB3F00950130 /* UserDetailsViewController.swift in Sources */,
+				9E2D4C8321A7DB3F00950130 /* Weak.swift in Sources */,
+				9E2D4C8B21A7DB3F00950130 /* UsersManagerViewController.swift in Sources */,
+				9E2D4C8721A7DB3F00950130 /* Preloader.swift in Sources */,
+				9E2D4C8921A7DB3F00950130 /* AuthenticationViewController.swift in Sources */,
+				9E2D4C8421A7DB3F00950130 /* UpgradeRequestsTableViewCell.swift in Sources */,
+				9E2D4C8D21A7DB3F00950130 /* UsersListViewController.swift in Sources */,
+				9E2D4C7C21A7DB3F00950130 /* RoleUpgradeRequest.swift in Sources */,
+				9E2D4C8221A7DB3F00950130 /* Constants.swift in Sources */,
+				9E2D4C9221A7DB3F00950130 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -446,13 +612,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9ED7CF1B219893AE00E26F6C /* Meal.swift in Sources */,
-				9ED7CF21219893F600E26F6C /* UserSettings.swift in Sources */,
 				9ECA0E522197799800512BBD /* CaloryCalculatorTests.swift in Sources */,
-				9ED7CF182198914600E26F6C /* ServerConnector.swift in Sources */,
-				9ED7CF242198963200E26F6C /* Constants.swift in Sources */,
-				9ED7CF1E219893C300E26F6C /* User.swift in Sources */,
-				9ED7CF152198912C00E26F6C /* FirebaseServerConnector.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -480,10 +640,18 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		9ECA0E402197799700512BBD /* Main.storyboard */ = {
+		9E2D4C7421A7DB3F00950130 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				9ECA0E412197799700512BBD /* Base */,
+				9E2D4C7521A7DB3F00950130 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		9E2D4C7621A7DB3F00950130 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9E2D4C7721A7DB3F00950130 /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -701,7 +869,6 @@
 		};
 		9ECA0E682197799800512BBD /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = B9BE17061155F43741F73419 /* Pods-CaloryCalculatorUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -721,7 +888,6 @@
 		};
 		9ECA0E692197799800512BBD /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9851E0982FE5911BB6DEB0F5 /* Pods-CaloryCalculatorUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
